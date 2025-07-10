@@ -51,11 +51,49 @@ Este repositório tem por objetivo definir os programas usados no Linux distribu
   - Instalar Plugins: ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
 - Instalar o Árvore de Arquivos fzf
   - ```sudo apt install fzf -y```
-
-
-
-
-
+- Instalar VLC
+  - ```sudo apt-get install vlc -y```
+- Instalar FileZilla
+  - ```sudo apt install filezilla -y```
+- Instalar Remmina
+  - ```sudo apt install remmina -y```
+- Instalar PdfArranger
+  - ```sudo apt install pdfarranger -y```
+- Instalar Gimp
+  - ```sudo apt install gimp -y```
+- Instalar Obs-Studio
+  - ```sudo apt install obs-studio -y```
+- Instalar Slack
+  - ```sudo snap install slack```
+- Instalar DBeaver
+  - ```sudo snap install dbeaver-ce```
+- Instalar Cheese (Câmera)
+  - ```sudo apt install cheese -y```
+- Instalar Discord
+  - ```sudo snap install discord```
+- Instalar Vivaldi (Browser)
+  - ```sudo snap install vivaldi```
+- Instalar Sublime-text
+  - ```sudo snap install sublime-text --classic```
+- Instalar VNC Tiger
+  - ```sudo bash scripts/vnc-tiger-install.sh```
+- Instalar SSH
+  - ```sudo bash scripts/ssh-install.sh```
+- Instalar Stacer
+  - ```sudo apt install stacer -y```
+- Instalar Obsidian
+  - ```sudo snap install obsidian --classic```
+- Instalar Balena Etcher
+  - ```sudo bash scripts/balena-etcher-install.sh```
+- Instalar OpenShot (Edição Vídeo)
+  - ```sudo add-apt-repository ppa:openshot.developers/ppa```
+  - ```sudo apt install openshot-qt -y```
+- Instalar Insomnia (Api Manager)
+  - ```sudo snap install insomnia```
+- Instalar Bitwarden
+  - ```sudo snap install bitwarden```
+- Instalar Miniconda
+  - ```bash scripts/miniconda-install.sh```
 
 # Software para Download
 - Visual Code
@@ -73,31 +111,3 @@ Este repositório tem por objetivo definir os programas usados no Linux distribu
   - Site Scanner: https://support.epson.net/linux/en/epsonscan2.php
     - https://download3.ebz.epson.net/dsc/f/03/00/17/08/12/9f3fec0ae80aa5c36f5170377ebcc38c93251e23/epsonscan2-bundle-6.7.80.0.x86_64.deb.tar.gz
     - Instalação: Extrair para uma pasta, e adiante executar ```sudo ./install.sh```
-
-
-- Slack
-- Dbeaver
-- PhpStorm
-- PyCharm
-- Discord
-- Filezila
-- Cheasse
-- VNC
-- SSH
-- Vivaldi
-- Sublime Text
-- JetBrains Toolbox
-- Insomnia
-- Php
-- miniconda
-- jupyter
-- ObsStudio
-- ctop: monitor interativo de containers Docker
-- VLC
-- OpenShot
-- GIMP
-- Stacer - https://oguzhaninan.github.io/Stacer-Web/
-- Bitwarden
-- Pdfarranger
-- https://obsidian.md/download
-- Etcher
