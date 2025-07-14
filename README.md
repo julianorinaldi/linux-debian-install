@@ -26,6 +26,7 @@ Este repositório tem por objetivo definir os programas usados no Linux distribu
   - ```sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1 && sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1```
 - Instalar Pip do Python
   - ```sudo apt install python3.10-distutils -y && sudo apt-get install python3-pip -y```
+  - ```curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py```
   - ```pip3 install --upgrade pip```
 - Instalar Venv Python
   - ```sudo apt install python3-venv -y```
