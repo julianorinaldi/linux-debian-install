@@ -27,6 +27,8 @@ Este repositório tem por objetivo definir os programas usados no Linux distribu
 - Instalar Pip do Python
   - ```sudo apt install python3.10-distutils -y && sudo apt-get install python3-pip -y```
   - ```pip3 install --upgrade pip```
+- Instalar Venv Python
+  - ```sudo apt install python3-venv -y```
 - Instalar Docker
   - ```sudo apt install docker.io -y && sudo usermod -aG docker ${USER} && newgrp docker```
 - Instalar Docker Compose
